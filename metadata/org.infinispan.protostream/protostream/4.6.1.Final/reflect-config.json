@@ -1,0 +1,19 @@
+[
+    {
+        "name": "org.infinispan.protostream.impl.Log_$logger",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.jboss.logging.Logger"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.infinispan.protostream.impl.Log_$logger_en"
+    },
+    {
+        "name": "org.infinispan.protostream.impl.Log_$logger_en_US"
+    }
+]

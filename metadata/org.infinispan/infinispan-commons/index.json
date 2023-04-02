@@ -1,0 +1,10 @@
+[
+    {
+      "latest": true,
+      "metadata-version": "14.0.7.Final",
+      "module": "org.infinispan:infinispan-commons",
+      "tested-versions": [
+        "14.0.7.Final"
+      ]
+    }
+]

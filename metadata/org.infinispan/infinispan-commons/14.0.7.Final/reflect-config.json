@@ -1,0 +1,53 @@
+[
+    {
+        "name": "org.infinispan.commons.api.AsyncCache"
+    },
+    {
+        "name": "org.infinispan.commons.api.BasicCache"
+    },
+    {
+        "name": "org.infinispan.commons.api.BasicCacheContainer"
+    },
+    {
+        "name": "org.infinispan.commons.api.Lifecycle"
+    },
+    {
+        "name": "org.infinispan.commons.api.TransactionalCache"
+    },
+    {
+        "name": "org.infinispan.commons.jmx.PlatformMBeanServerLookup",
+        "queryAllPublicMethods": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.infinispan.commons.logging.Log_$logger",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.jboss.logging.Logger"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.infinispan.commons.logging.Log_$logger_en"
+    },
+    {
+        "name": "org.infinispan.commons.logging.Log_$logger_en_US"
+    },
+    {
+        "name": "org.infinispan.commons.marshall.JavaSerializationMarshaller"
+    },
+    {
+        "name": "org.infinispan.commons.marshall.ProtoStreamMarshaller"
+    },
+    {
+        "name": "org.infinispan.counter.api.CounterManager"
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+      "latest": true,
+      "metadata-version": "14.0.7.Final",
+      "module": "org.infinispan:infinispan-client-hotrod",
+      "tested-versions": [
+        "14.0.7.Final"
+      ]
+    }
+]
+  

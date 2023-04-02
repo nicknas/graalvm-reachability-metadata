@@ -1,0 +1,9 @@
+{
+    "resources": {
+        "includes": [
+            {
+                "pattern": "\\Qorg/infinispan/protostream/message-wrapping.proto\\E"
+            }
+        ]
+    }
+}

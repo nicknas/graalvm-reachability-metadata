@@ -1,0 +1,155 @@
+[
+    {
+        "name": "org.infinispan.client.hotrod.RemoteCache"
+    },
+    {
+        "name": "org.infinispan.client.hotrod.RemoteCacheContainer"
+    },
+    {
+        "name": "org.infinispan.client.hotrod.RemoteCacheManager"
+    },
+    {
+        "name": "org.infinispan.client.hotrod.configuration.NearCacheMode"
+    },
+    {
+        "name": "org.infinispan.client.hotrod.impl.async.DefaultAsyncExecutorFactory",
+        "queryAllPublicMethods": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.infinispan.client.hotrod.impl.consistenthash.SegmentConsistentHash",
+        "queryAllPublicMethods": true,
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": []
+            }
+        ]
+    },
+    {
+        "name": "org.infinispan.client.hotrod.impl.transport.netty.ActivationHandler",
+        "methods": [
+            {
+                "name": "channelActive",
+                "parameterTypes": [
+                    "io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "exceptionCaught",
+                "parameterTypes": [
+                    "io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Throwable"
+                ]
+            },
+            {
+                "name": "userEventTriggered",
+                "parameterTypes": [
+                    "io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Object"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.infinispan.client.hotrod.impl.transport.netty.AuthHandler",
+        "methods": [
+            {
+                "name": "channelActive",
+                "parameterTypes": [
+                    "io.netty.channel.ChannelHandlerContext"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.infinispan.client.hotrod.impl.transport.netty.ChannelInitializer"
+    },
+    {
+        "name": "org.infinispan.client.hotrod.impl.transport.netty.HeaderDecoder",
+        "methods": [
+            {
+                "name": "channelInactive",
+                "parameterTypes": [
+                    "io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "exceptionCaught",
+                "parameterTypes": [
+                    "io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Throwable"
+                ]
+            },
+            {
+                "name": "userEventTriggered",
+                "parameterTypes": [
+                    "io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Object"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.infinispan.client.hotrod.impl.transport.netty.IdleStateHandlerProvider",
+        "methods": [
+            {
+                "name": "userEventTriggered",
+                "parameterTypes": [
+                    "io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Object"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.infinispan.client.hotrod.impl.transport.netty.InitialPingHandler",
+        "methods": [
+            {
+                "name": "channelActive",
+                "parameterTypes": [
+                    "io.netty.channel.ChannelHandlerContext"
+                ]
+            },
+            {
+                "name": "exceptionCaught",
+                "parameterTypes": [
+                    "io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Throwable"
+                ]
+            },
+            {
+                "name": "userEventTriggered",
+                "parameterTypes": [
+                    "io.netty.channel.ChannelHandlerContext",
+                    "java.lang.Object"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.infinispan.client.hotrod.jmx.RemoteCacheManagerMXBean"
+    },
+    {
+        "name": "org.infinispan.client.hotrod.logging.Log_$logger",
+        "methods": [
+            {
+                "name": "<init>",
+                "parameterTypes": [
+                    "org.jboss.logging.Logger"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "org.infinispan.client.hotrod.logging.Log_$logger_en"
+    },
+    {
+        "name": "org.infinispan.client.hotrod.logging.Log_$logger_en_US"
+    }
+]
